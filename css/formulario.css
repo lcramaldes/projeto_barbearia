@@ -1,0 +1,80 @@
+#contact {
+    min-height: 80vh;
+    background:url(http://127.0.0.1:5500/barbearia_projeto/img/banner_age.jpg)center/cover fixed no-repeat ;
+    display: flex;
+    justify-content: center;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.contact-card {
+    flex: 0 0 80%;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    margin: 5px 0;
+}
+
+
+form h3 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+form input, textarea {
+    padding: 5px;
+    border: 1px solid #000;
+}
+#procedimento{
+    padding: 4px;
+    margin-bottom: 5px;
+    border: 1px solid #000;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 10px;;
+}
+input::placeholder, textarea::placeholder {
+    text-transform: uppercase;
+    color: black;
+    font-size: 12px;
+}
+input, textarea{
+    border-radius: 10px;
+}
+
+.form-btn {
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: transform .3s;
+}
+.contact-card button{
+    border-radius: 10px;
+    color:#fff;
+    background: #009688;
+}
+.form-btn:hover {
+    color: #333;
+    background: #fff;
+    transform: translateY(-7px);
+
+
+}
+
+
